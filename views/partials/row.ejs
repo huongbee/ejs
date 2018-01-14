@@ -1,0 +1,8 @@
+<% 
+    const {name, age} = user;
+    const color = age > 10 ? "red" : "green"
+%>
+<h3 style="color:<%= color%>">Name: <%= name%></h3>
+<p>Age : <%= age%></p>
+<a href="/remove/<%=name%>">Remove</a>
+<hr>
